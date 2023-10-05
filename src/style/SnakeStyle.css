@@ -1,0 +1,53 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  button{
+    font-size: 300%;
+  }
+  
+
+  .P1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: overline;
+  }
+  
+  .Text{
+    font-size: 200%;
+    font-style: oblique;
+    text-decoration: double;
+    text-align: center;
+  }
+  
+  /* JUEGO */
+  .grid {
+    width: 360px;
+    height: 360px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+  }
+  
+  .grid div{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .Tale {
+    background-color: rgb(162, 108, 201);
+    border-radius: 5%;
+  }
+  
+  .player {
+    background-color: rgb(121, 29, 207);
+    border-radius: 10%;
+  }
+  
+  .Food {
+    background-color: rgb(0, 255, 30);
+    border-radius: 50%;
+  }

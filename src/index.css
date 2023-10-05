@@ -1,0 +1,19 @@
+.main-header{
+  background-color: rgb(95, 216, 196);
+  text-align: center;
+  padding: 10px;
+}
+
+.main-header a{
+  padding: 5%;
+  display: inline;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 150%;
+}
+
+.main-header a:hover{
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
