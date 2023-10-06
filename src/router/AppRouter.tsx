@@ -1,4 +1,4 @@
-import Battleship from "../pages/Battleship "
+import Convertidor from "../pages/Convertidor"
 import FirstPage from "../pages/FirstPage"
 import HomePage from "../pages/HomePage"
 import Pokedex from "../pages/Pokedex"
@@ -14,7 +14,7 @@ const AppRouter = () => {
         <Routes>
             <Route path="/*" element={<HomePage/>}/>
             <Route path="/home" element={<HomePage/>}/>
-            <Route path="/battleship" element={<Battleship/>}/>
+            <Route path="/Convertidor" element={<Convertidor/>}/>
             <Route path="/first" element={<FirstPage/>}/>
             <Route path="/snake" element={<Snake/>}/>
             <Route path="/pokedex" element={<Pokedex/>}/>

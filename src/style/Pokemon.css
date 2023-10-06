@@ -1,0 +1,62 @@
+.pokemonh1 h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Flex img {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonh1{
+    margin: 0;
+}
+
+.Ability h2{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.Flex {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+.Ability {
+    display: flex;
+    margin: 0 auto;
+    height: 120px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formFlex {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.formFlex input {
+    justify-content: center;
+    align-items: center;
+}
+
+.formFlex button{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.formFlex h1 {
+    text-align: center;
+    font-size: 20px;
+}
