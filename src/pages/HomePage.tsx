@@ -3,9 +3,9 @@ import "../style/About.css"
 const HomePage = () => {
   return (
     <>
-        <h1 className="textCenter">About me</h1>
         <div>
           <h1 className="textCenter">Angel Jared Ruiz Miramontes</h1>
+          <h1 className="textCenter">Desarrollo de Software Interactivo y Videojuegos </h1>
         </div>
           
         <div className="AboutFlex">
@@ -40,6 +40,36 @@ const HomePage = () => {
           <div className="OnePager4">
             <img src="./public/Zombie-Royal.png" alt="" />
           </div>
+        </div>
+        <br />
+        <hr />
+          <h1 className="textCenter">Lenguajes de programacion</h1>
+        <div className="flexProgra">
+          <div className="conteinerProgra">
+            <h2>C++</h2>
+          </div>
+          <div className="conteinerProgra">
+          <h2>C#</h2>
+          </div>
+          <div className="conteinerProgra">
+          <h2>Html</h2>
+          </div>
+          <div className="conteinerProgra">
+          <h2>Python</h2>
+          </div>
+          <div className="conteinerProgra">
+          <img src="./public/C.png" alt="" />
+          </div>
+          <div className="conteinerProgra">
+          <img src="./public/C++.png" alt="" />
+          </div>
+          <div className="conteinerProgra">
+          <img src="./public/Html.png" alt="" />
+          </div>
+          <div className="conteinerProgra">
+          <img src="./public/Python.png" alt="" />
+          </div>
+          
         </div>
         <hr />
         <br />
