@@ -4,6 +4,9 @@ const HomePage = () => {
   return (
     <>
         <h1 className="textCenter">About me</h1>
+        <div>
+          <h1 className="textCenter">Angel Jared Ruiz Miramontes</h1>
+        </div>
           
         <div className="AboutFlex">
           <h1>Juego en itch.io</h1>
