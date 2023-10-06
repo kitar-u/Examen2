@@ -11,6 +11,14 @@ const HomePage = () => {
             <div className="Juego">
                 <img src="./public/Juego.png" alt="" />
             </div>
+            <h3 className="TextGame">Gameplay</h3>
+            <div className="Gameplay">
+                <img src="./public/game.png" alt="" />
+            </div>
+            <h3 className="TextTienda">Tienda</h3>
+            <div className="Tienda">
+                <img src="./public/Tienda.png" alt="" />
+            </div>
           </div>
         </div>
         <hr />
