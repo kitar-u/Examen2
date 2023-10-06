@@ -3,7 +3,7 @@ import "../style/About.css"
 const HomePage = () => {
   return (
     <>
-        <h1>HomePage</h1>
+        <h1 className="textCenter">About me</h1>
           
         <div className="AboutFlex">
           <h1>Juego en itch.io</h1>
@@ -19,6 +19,23 @@ const HomePage = () => {
             <div className="Tienda">
                 <img src="./public/Tienda.png" alt="" />
             </div>
+          </div>
+        </div>
+        <hr />
+        <br />
+        <h1 className="textCenter">Mis One Pagers</h1>
+        <div className="GridOnePager">
+          <div className="OnePager1">
+            <img src="./public/Infectionmania.png" alt="" />
+          </div>
+          <div className="OnePager2">
+            <img src="./public/Beyond The Sound.png" alt="" />
+          </div>
+          <div className="OnePager3">
+            <img src="./public/Crafting Defense.png" alt="" />
+          </div>
+          <div className="OnePager4">
+            <img src="./public/Zombie-Royal.png" alt="" />
           </div>
         </div>
         <hr />
