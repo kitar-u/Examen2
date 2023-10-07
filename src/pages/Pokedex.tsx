@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import "../style/Pokemon.css";
 
-
 type Props = {
     pokemonName:string,
     pokemonAbilities:string[],
@@ -65,7 +64,7 @@ useEffect(() => {
   if(loading){
       return <h1 className="Loadingh1">Loading...</h1>
   }
-  
+
   return (
     <>
       <div className="pokemonh1">
@@ -96,12 +95,12 @@ useEffect(() => {
       </div>
       <div className="formFlex">
         <form onSubmit={ev => {
-             ev.preventDefault();
-            setBuscar(ev.target.search.value)
+            ev.preventDefault();
+            setBuscar(ev.target.search.value);
             ChangePokemon();
           }}>
               <h1>Buscar pokemon: Dale doble click</h1>
-              <input type="number" name='search'/>
+              <input placeholder="Numero Pokemon" type='number' name='search'/>
               <button type="submit">Añadir</button>
           </form>
       </div>
