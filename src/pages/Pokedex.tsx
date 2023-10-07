@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import {useForm} from "react-hook-form"
 import "../style/Pokemon.css";
 
 type Props = {
@@ -65,6 +66,12 @@ useEffect(() => {
       return <h1 className="Loadingh1">Loading...</h1>
   }
 
+  const {register, handleSubmit} = useForm();
+
+  const onSubmit = (data:any) =>{
+    console.log(data);
+  }
+
   return (
     <>
       <div className="pokemonh1">
@@ -94,11 +101,7 @@ useEffect(() => {
         </ul>
       </div>
       <div className="formFlex">
-        <form onSubmit={ev => {
-            ev.preventDefault();
-            setBuscar(ev.target.search.value);
-            ChangePokemon();
-          }}>
+        <form onSubmit={handleSubmit(onSubmit)}>
               <h1>Buscar pokemon: Dale doble click</h1>
               <input placeholder="Numero Pokemon" type='number' name='search'/>
               <button type="submit">Añadir</button>
