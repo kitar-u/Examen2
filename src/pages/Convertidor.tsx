@@ -37,20 +37,29 @@ const Convertidor = (props:Props) => {
       setResultado(valor * 1000)
   }
 
+
+    const [userNumber, setUserNumber] = useState<number | undefined>(undefined);
+  
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const inputNumber = parseFloat(e.target.value);
+      if (!isNaN(inputNumber)) {
+        setUserNumber(inputNumber);
+        setValor(inputNumber);
+      } else {
+        setUserNumber(undefined);
+      }
+    };
+
   return (
     <>
         <div className="contenedor">
-          <form onSubmit={ev => {
-            ev.preventDefault();
-            setValor(ev.target.search.value)
-        }}>
+
           <h1>Convertidor de unidades</h1>
           <h3>Numero a convertir</h3>
-          <input type="number" name='search'/>
-          <button type="submit">subir</button>
+          <input type="number" id="numberInput" onChange={handleInputChange} value={userNumber === undefined ? '' : userNumber}/>
           <h3>Resultado:</h3>
           <h3>{Resultado}</h3>
-          </form>
+
           <button onClick={CaM}> cm a m </button>
           <button onClick={MaC}> m a cm</button>
           <button onClick={CaK}> cm a km </button>

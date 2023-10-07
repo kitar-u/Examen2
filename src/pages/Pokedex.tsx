@@ -9,21 +9,24 @@ type Props = {
     pokemonImg:string,
 }
 
-type Busqueda = {
-  busqueda?:any,
-}
 
-
-const Pokedex = (prposPokemon: Busqueda) => {
+const Pokedex = () => {
   const [loading, setLoading] = useState(true);
   const [pokemones, setPokemon] = useState<Props>();
-  const {busqueda} = prposPokemon; 
-  const [buscar, setBuscar] = useState<Busqueda>(busqueda?busqueda:"1");
   const [Url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/1" );
 
-  const ChangePokemon = () => {
-    setUrl("https://pokeapi.co/api/v2/pokemon/" + buscar)
-  }
+
+  const [userNumber, setUserNumber] = useState<number | undefined>(undefined);
+  
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const inputNumber = parseFloat(e.target.value);
+    if (!isNaN(inputNumber)) {
+      setUserNumber(inputNumber);
+      setUrl("https://pokeapi.co/api/v2/pokemon/" + inputNumber)
+    } else {
+      setUserNumber(undefined);
+    }
+  };
 
   const fetchMenu = async () => {
     setLoading(true);
@@ -66,6 +69,7 @@ useEffect(() => {
   }
 
   
+  
 
   return (
     <>
@@ -96,15 +100,8 @@ useEffect(() => {
         </ul>
       </div>
       <div className="formFlex">
-        <form onSubmit={ev => {
-            ev.preventDefault();
-            setBuscar(ev.target.search.value);
-            ChangePokemon();
-          }}>
-              <h1>Buscar pokemon: Dale doble click</h1>
-              <input placeholder="Numero Pokemon" type='number' name='search'/>
-              <button type="submit">Añadir</button>
-          </form>
+              <h1>Buscar pokemon: </h1>
+              <input type="number" id="numberInput" onChange={handleInputChange} value={userNumber === undefined ? '' : userNumber}/>
       </div>
 
       <hr />
