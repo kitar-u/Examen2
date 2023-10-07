@@ -65,6 +65,8 @@ useEffect(() => {
       return <h1 className="Loadingh1">Loading...</h1>
   }
 
+  
+
   return (
     <>
       <div className="pokemonh1">
