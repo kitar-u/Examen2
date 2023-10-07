@@ -49,7 +49,7 @@ const Convertidor = (props:Props) => {
           <input type="number" name='search'/>
           <button type="submit">subir</button>
           <h3>Resultado:</h3>
-          <h2>{Resultado}</h2>
+          <h3>{Resultado}</h3>
           </form>
           <button onClick={CaM}> cm a m </button>
           <button onClick={MaC}> m a cm</button>

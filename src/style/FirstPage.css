@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
+    background-color: rgb(190, 218, 218);
   }
   
   #ItemCarrusel{
@@ -273,4 +274,11 @@ html,body{
     grid-column-end: 30;
     grid-row-start: 23;
     grid-row-end: 32;
+  }
+
+  .P1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: overline;
   }
