@@ -19,19 +19,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-1">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Kongo.png" alt=""/>
+                <img src="Kongo.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Kongo</h3>
               </div>
               <div className="C2">
-                <img src="./public/Phos.png" alt=""/>
+                <img src="Phos.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Phos</h3>
               </div>
               <div className="C3">
-                <img src="./public/Cinnbar.png" alt=""/>
+                <img src="Cinnbar.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Cinnbar</h3>
@@ -49,19 +49,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-2">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Antartic.png" alt=""/>
+                <img src="Antartic.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Antartic</h3>
               </div>
               <div className="C2">
-                <img src="./public/Lapis.png" alt=""/>
+                <img src="Lapis.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Lapis</h3>
               </div>
               <div className="C3">
-                <img src="./public/Sphene.png" alt=""/>
+                <img src="Sphene.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Sphene</h3>
@@ -79,19 +79,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-3">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Hemimorphite.png" alt=""/>
+                <img src="Hemimorphite.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Hemimorphite</h3>
               </div>
               <div className="C2">
-                <img src="./public/Obsidian.png" alt=""/>
+                <img src="Obsidian.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Obsidian</h3>
               </div>
               <div className="C3">
-                <img src="./public/Nepunite.png" alt=""/>
+                <img src="Nepunite.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Nepunite</h3>
@@ -109,19 +109,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-4">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Rutile.png" alt=""/>
+                <img src="Rutile.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Rutile</h3>
               </div>
               <div className="C2">
-                <img src="./public/Benito.png" alt=""/>
+                <img src="Benito.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Benito</h3>
               </div>
               <div className="C3">
-                <img src="./public/Peridot.png" alt=""/>
+                <img src="Peridot.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Peridot</h3>
@@ -139,19 +139,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-5">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Ghost-Quartz.png" alt=""/>
+                <img src="Ghost-Quartz.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Ghost-Quartz</h3>
               </div>
               <div className="C2">
-                <img src="./public/Carngorm.png" alt=""/>
+                <img src="Carngorm.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Carngorm</h3>
               </div>
               <div className="C3">
-                <img src="./public/Amethyst.png" alt=""/>
+                <img src="Amethyst.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Amethyst</h3>
@@ -169,19 +169,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-6">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Jade.png" alt=""/>
+                <img src="Jade.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Jade</h3>
               </div>
               <div className="C2">
-                <img src="./public/Euclace.png" alt=""/>
+                <img src="Euclace.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Euclace</h3>
               </div>
               <div className="C3">
-                <img src="./public/RedBeryl.png" alt=""/>
+                <img src="RedBeryl.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>RedBeryl</h3>
@@ -199,19 +199,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-7">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Morganite.png" alt=""/>
+                <img src="Morganite.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Morganite</h3>
               </div>
               <div className="C2">
-                <img src="./public/Goshe.png" alt=""/>
+                <img src="Goshe.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Goshenite</h3>
               </div>
               <div className="C3">
-                <img src="./public/Tormalite.png" alt=""/>
+                <img src="Tormalite.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Tormalite</h3>
@@ -229,19 +229,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-8">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Zircon.png" alt=""/>
+                <img src="Zircon.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Zircon</h3>
               </div>
               <div className="C2">
-                <img src="./public/Alex.png" alt=""/>
+                <img src="Alex.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Alexandrite</h3>
               </div>
               <div className="C3">
-                <img src="./public/Padparadscha.png" alt=""/>
+                <img src="Padparadscha.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Padparadscha</h3>
@@ -259,19 +259,19 @@ const FirstPage = () => {
           <div className="Carrusel" id="Carrusel-9">
             <div className="ImgCarrusel" id="Img-1">
               <div className="C1">
-                <img src="./public/Yellow Di.png" alt=""/>
+                <img src="Yellow Di.png" alt=""/>
               </div>
               <div className="Name1">
                 <h3>Yellow-Dia</h3>
               </div>
               <div className="C2">
-                <img src="./public/Didi.png" alt=""/>
+                <img src="Didi.png" alt=""/>
               </div>
               <div className="Name2">
                 <h3>Diamond</h3>
               </div>
               <div className="C3">
-                <img src="./public/Bort.png" alt=""/>
+                <img src="Bort.png" alt=""/>
               </div>
               <div className="Name3">
                 <h3>Bort</h3>
@@ -308,40 +308,40 @@ const FirstPage = () => {
 
         <div className="Vol">
           <div className="Vol-1">
-            <img src="./public/Vol-1.jpg" alt=""/>
+            <img src="Vol-1.jpg" alt=""/>
           </div>
           <div className="Vol-2">
-            <img src="./public/Vol-2.jpg" alt=""/>
+            <img src="Vol-2.jpg" alt=""/>
           </div>
           <div className="Vol-3">
-            <img src="./public/Vol-3.jpg" alt=""/>
+            <img src="Vol-3.jpg" alt=""/>
           </div>
           <div className="Vol-4">
-            <img src="./public/Vol-4.jpg" alt=""/>
+            <img src="Vol-4.jpg" alt=""/>
           </div>
           <div className="Vol-5">
-            <img src="./public/Vol-5.jpg" alt=""/>
+            <img src="Vol-5.jpg" alt=""/>
           </div>
           <div className="Vol-6">
-            <img src="./public/Vol-6.jpg" alt=""/>
+            <img src="Vol-6.jpg" alt=""/>
           </div>
           <div className="Vol-7">
-            <img src="./public/Vol-7.jpg" alt=""/>
+            <img src="Vol-7.jpg" alt=""/>
           </div>
           <div className="Vol-8">
-            <img src="./public/Vol-8.jpg" alt=""/>
+            <img src="Vol-8.jpg" alt=""/>
           </div>
           <div className="Vol-9">
-            <img src="./public/Vol-9.jpg" alt=""/>
+            <img src="Vol-9.jpg" alt=""/>
           </div>
           <div className="Vol-10">
-            <img src="./public/Vol-10.jpg" alt=""/>
+            <img src="Vol-10.jpg" alt=""/>
           </div>
           <div className="Vol-11">
-            <img src="./public/Vol-11.jpg" alt=""/>
+            <img src="Vol-11.jpg" alt=""/>
           </div>
           <div className="Vol-12">
-            <img src="./public/Vol-12.png" alt=""/>
+            <img src="Vol-12.png" alt=""/>
           </div>
         </div>
 
@@ -357,12 +357,12 @@ const FirstPage = () => {
             <div className="Redes">
               <div className="F-1">
                 <a href="https://www.linkedin.com/in/ángel-jared-ruíz-miramontes-344431289/">
-                  <img src="./public/icone-linkedin-ronde-originale.png" alt=""/>
+                  <img src="icone-linkedin-ronde-originale.png" alt=""/>
                 </a>
               </div>
               <div className="F-2">
                 <a href="https://kitaru1960.itch.io">
-                  <img src="./public/itch-io-icon-512x512-wwio9bi8.png" alt=""/>
+                  <img src="itch-io-icon-512x512-wwio9bi8.png" alt=""/>
                 </a>
               </div>
             </div>

@@ -113,8 +113,8 @@ const Snake = () => {
     <>
 	<h1 className="textCenter">Movimiento con las flechas</h1>
     <div onKeyDown={(e)=> changeDirection(e)}>
-    <img id="fruit" src="./public/apple.png" alt="fruit" width="30"/>
-    <img src="./public/CuadroDeJuego.png" alt="fruit" width="4000" className="monitor" />
+    <img id="fruit" src="apple.png" alt="fruit" width="30"/>
+    <img src="CuadroDeJuego.png" alt="fruit" width="4000" className="monitor" />
     <canvas className="playArea" ref={CanvasRef} width={`${canvasX}px`} height={`${canvasY}px`} />
       {gameover && <div className="gameOver">Game Over</div> }
       <button onClick={play} className="playButton">Play</button>
